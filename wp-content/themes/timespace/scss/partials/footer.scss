@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------------------
+Footer Styles
+-----------------------------------------------------------------------------*/
+footer {
+	background: $navy;
+	color: $copper;
+	padding-top: 12.7rem;
+	padding-bottom: 2rem;
+	@include mobile-only {
+		padding-top: 4rem;
+		text-align: center;
+		padding-bottom: 2rem;
+	}
+	.split-aligner {
+		@include mobile-only {
+			display: block;
+		}
+	}
+	.logo-wrapper {
+		width: 8.1rem;
+		@include tablet-up {
+			margin-left: 6rem;
+		}
+		@include mobile-only {
+			width: 5rem;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3rem;
+		}
+	}
+}
+
+/* --------------------------------------------------------------------------
+Footer Navigation Styles
+-----------------------------------------------------------------------------*/
+footer .address {
+	font-size: 1.8rem;
+	text-align: right;
+	line-height: 1.5;
+	@include mobile-only {
+		text-align: center;
+		font-size: 1.4rem;
+		margin-top: 1rem;
+	}
+	.email {
+		margin-top: 2px;
+	}
+}
+
+/* --------------------------------------------------------------------------
+LK Site Credit
+-----------------------------------------------------------------------------*/
+.copyright {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 2rem;
+	border-top: 1px solid $copper;
+	margin-top: 5.8rem;
+	@include tablet-up {
+		padding-left: 6rem;
+	}
+	@include mobile-only {
+		margin-top: 3.5rem;
+		font-size: 1.4rem;
+		padding-top: 2rem;
+	}
+}

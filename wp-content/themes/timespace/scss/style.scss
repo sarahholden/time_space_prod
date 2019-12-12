@@ -1,0 +1,23 @@
+@import 'partials/reset';
+@import 'partials/images';
+@import 'partials/fonts';
+@import 'partials/variables';
+@import 'partials/typography';
+@import 'partials/layout';
+@import 'partials/grid';
+@import 'partials/forms';
+@import 'partials/nav';
+@import 'partials/footer';
+
+/* --------------------------------------------------------------------------
+Section Comment
+-----------------------------------------------------------------------------*/
+@import 'sections/home';
+@import 'sections/about';
+@import 'sections/properties';
+@import 'sections/gallery';
+@import 'sections/contact';
+
+.not-found {
+  text-align: center;
+}

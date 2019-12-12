@@ -1,0 +1,103 @@
+/* --------------------------------------------------------------------------
+  Gallery Page
+-----------------------------------------------------------------------------*/
+.page-gallery {
+  text-align: center;
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    @include mobile-only {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .gallery-row {
+    margin-bottom: 6rem;
+  }
+}
+
+.page-gallery .swiper-container-gallery {
+  height: 69.5rem;
+  padding-bottom: 8rem;
+  @include mobile-only {
+    height: 22rem;
+    padding-bottom: 3rem;
+  }
+  img {
+    height: 61.5rem;
+    @include mobile-only {
+      height: 18rem;
+    }
+  }
+  .swiper-wrapper {
+    padding-bottom: 8rem;
+  }
+  .swiper-slide {
+    height: auto;
+    width: auto;
+    padding: 0 2rem;
+    @include mobile-only {
+      padding: 0 0.8rem;
+    }
+  }
+  .range-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75rem;
+    z-index: 50;
+    height: 1.2rem;
+    @include mobile-only {
+      width: calc(70%);
+    }
+    .ui-slider-handle {
+      height: 0.9rem;
+      width: 8.8rem;
+      outline: none !important;
+      background: $copper;
+      border: 0;
+      border-radius: 0;
+      cursor: pointer;
+      @include mobile-only {
+        width: 4.5rem;
+      }
+    }
+    .ui-widget.ui-widget-content {
+      background: transparent;
+      border: 0;
+      height: 2px;
+      position: relative;
+      cursor: pointer;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% + 8.2rem);
+        background: $copper;
+        height: 2px;
+        @include mobile-only {
+          width: calc(100% + 4.5rem);
+        }
+      }
+    }
+    .ui-state-active {
+      background: $copper;
+    }
+    .ui-slider-horizontal .ui-slider-handle {
+      top: -0.4rem;
+      margin-left: 0;
+      transform: translateX(-50%);
+    }
+    span.ui-slider-handle.ui-state-default.ui-corner-all {
+      transition: all 0.3s;
+    }
+
+    span.ui-slider-handle.ui-state-default.ui-corner-all.ui-state-active {
+      transition: none;
+    }
+  }
+}

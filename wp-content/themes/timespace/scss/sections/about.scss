@@ -1,0 +1,166 @@
+/* --------------------------------------------------------------------------
+  ABOUT HEADER
+-----------------------------------------------------------------------------*/
+.page-about header {
+  .text-content {
+    background: $tanBg;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    @include mobile-only {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+  .inner {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desc {
+    line-height: 1.45;
+    @include tablet-up {
+      padding-right: 10px;
+    }
+    @include mobile-only {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+  ABOUT CORE VALUES
+-----------------------------------------------------------------------------*/
+.page-about .core-values {
+  text-align: center;
+  padding: 6rem 0 11rem;
+  @include mobile-only {
+    padding: 4rem 0 6rem;
+  }
+  h2 {
+    font-family: $novelSans;
+    font-weight: 300;
+    margin-bottom: 6rem;
+    @include mobile-only {
+      margin-bottom: 2rem;
+    }
+  }
+  .desc {
+    max-width: 87rem;
+    margin: 0 auto 7rem;
+    font-size: 2.5rem;
+    line-height: 1.35;
+    letter-spacing: 0.03rem;
+    @include mobile-only {
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+  .divider {
+    max-width: 104.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    border-bottom: 2px solid $copper;
+    @include mobile-only {
+      margin-bottom: 3rem;
+    }
+  }
+  .pullout-quote {
+    max-width: 83.8rem;
+    color: $copper;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    line-height: 1.35;
+    @include mobile-only {
+      font-size: 2rem;
+    }
+  }
+}
+
+/* CORE VALUES LIST ================== */
+.page-about .core-values-list {
+  padding-bottom: 4rem;
+  @include mobile-only {
+    padding-bottom: 1rem;
+  }
+  @include tablet-up {
+    display: flex;
+    justify-content: space-between;
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+  }
+  h3 {
+    font-family: $novelSans;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    @include mobile-only {
+      margin-bottom: 1rem;
+      font-size: 3rem;
+    }
+  }
+  .small-desc {
+    font-size: 2.2rem;
+    line-height: 1.35;
+    @include mobile-only {
+      font-size: 1.6rem;
+      max-width: 25rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  > .core-values-item {
+    @include tablet-up {
+      padding: 0 1.4rem;
+    }
+    @include mobile-only {
+      margin-bottom: 2rem;
+    }
+  }
+
+}
+
+/* --------------------------------------------------------------------------
+  ABOUT OUTRO
+-----------------------------------------------------------------------------*/
+.page-about .outro {
+  background: $lightBlueBg;
+  padding-top: 11.4rem;
+  padding-bottom: 11.4rem;
+  @include mobile-only {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .inner {
+    max-width: 96rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-family: $novelSans;
+    font-weight: 300;
+    @include tablet-up {
+      margin-top: 1rem;
+    }
+  }
+  .cols-2-3 {
+    @include mobile-only {
+      grid-gap: 1.5rem;
+    }
+  }
+  .desc {
+    line-height: 1.4;
+    @include mobile-only {
+      font-size: 1.6rem;
+    }
+  }
+  .outro-row:not(:last-of-type) {
+    margin-bottom: 9rem;
+    @include mobile-only {
+      margin-bottom: 3rem;
+    }
+  }
+}

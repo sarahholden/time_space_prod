@@ -1,0 +1,137 @@
+[06-Dec-2019 23:39:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:39:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:41:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:41:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/404.php(10): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:43:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[06-Dec-2019 23:44:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php:25
+Stack trace:
+#0 /home2/timespac/public_html/staging/wp-includes/template.php(722): require_once()
+#1 /home2/timespac/public_html/staging/wp-includes/template.php(671): load_template('/home2/timespac...', true)
+#2 /home2/timespac/public_html/staging/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home2/timespac/public_html/staging/wp-content/themes/custom/index.php(15): get_header()
+#4 /home2/timespac/public_html/staging/wp-includes/template-loader.php(98): include('/home2/timespac...')
+#5 /home2/timespac/public_html/staging/wp-blog-header.php(19): require_once('/home2/timespac...')
+#6 /home2/timespac/public_html/staging/index.php(17): require('/home2/timespac...')
+#7 {main}
+  thrown in /home2/timespac/public_html/staging/wp-content/themes/custom/header.php on line 25
+[10-Dec-2019 20:17:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home2/timespac/public_html/staging/wp-content/themes/timespace/template-properties.php on line 10
+[10-Dec-2019 20:17:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home2/timespac/public_html/staging/wp-content/themes/timespace/template-properties.php on line 10
+[10-Dec-2019 20:18:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/timespac/public_html/staging/wp-content/themes/timespace/template-property-detail.php on line 131
+[10-Dec-2019 20:24:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/timespac/public_html/staging/wp-content/themes/timespace/template-property-detail.php on line 138
+[10-Dec-2019 20:24:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/timespac/public_html/staging/wp-content/themes/timespace/template-property-detail.php on line 138

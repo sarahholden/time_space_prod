@@ -1,0 +1,186 @@
+/* --------------------------------------------------------------------------
+  HEADER
+-----------------------------------------------------------------------------*/
+.page-home header {
+  position: relative;
+  @include mobile-only {
+    padding-bottom: 6rem;
+  }
+  @include tablet-up {
+    padding-top: 6rem;
+    padding-bottom: 15.9rem;
+  }
+  .scaling-image-wrapper {
+    @include tablet-up {
+      padding-bottom: 57vw;
+    }
+    position: relative;
+  }
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    @include mobile-only {
+      position: relative;
+      height: 0;
+      padding-bottom: 58vw;
+    }
+  }
+  .desc {
+    font-size: 1.8rem;
+    @include mobile-only {
+      margin-top: 2.4rem;
+    }
+    @include tablet-up {
+      position: absolute;
+      z-index: 190;
+      max-width: 56.8rem;
+      right: 19.4rem;
+      top: 1rem;
+      transform: translateY(-100%);
+      font-size: 2.5rem;
+      line-height: 1.3;
+    }
+  }
+  .scaling-image-wrapper {
+    @include tablet-up {
+      min-height: 58vw;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+  OUR PROPERTIES
+-----------------------------------------------------------------------------*/
+.properties-list-home {
+  .inner {
+    position: relative;
+    padding-bottom: 14rem;
+    @include mobile-only {
+      padding-bottom: 4rem;
+    }
+  }
+  h1 {
+    font-size: 10rem;
+    max-width: 47.6rem;
+    line-height: 0.8;
+    @include tablet-up {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    @include mobile-only {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+}
+
+.property-item-home {
+  display: block;
+  position: relative;
+  min-height: 18vw;
+  a {
+    display: block;
+  }
+  h2 {
+    position: absolute;
+    bottom: 0;
+    left: -.8rem;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    font-size: 1.7rem;
+    @include mobile-only {
+      left: -.4rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05rem;
+    }
+  }
+  .img-wrapper {
+    overflow: hidden;
+    img {
+      transition: all 3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    }
+  }
+  &:hover {
+    .img-wrapper img {
+      opacity: 0.8;
+      transform: scale(1.09);
+    }
+  }
+  &:nth-child(7n + 1) {
+    margin-left: auto;
+    width: 43vw;
+    @include mobile-only {
+      width: 38vw;
+    }
+  }
+  &:nth-child(7n + 2) {
+    width: 38vw;
+    top: -14rem;
+    @include mobile-only {
+      width: 34vw;
+      top: -2rem;
+    }
+  }
+  &:nth-child(7n + 3) {
+    width: 64vw;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet-up {
+      margin-top: -3rem;
+    }
+    @include mobile-only {
+      margin-top: 1rem;
+    }
+  }
+  &:nth-child(7n + 4) {
+    margin-left: auto;
+    width: 43vw;
+    margin-top: 10.8rem;
+    @include mobile-only {
+      width: 38vw;
+      margin-top: 3rem;
+    }
+  }
+  &:nth-child(7n + 5) {
+    width: 52vw;
+    margin-top: 10.8rem;
+    @include mobile-only {
+      width: 48vw;
+      margin-top: 3rem;
+    }
+
+  }
+  &:nth-child(7n + 6) {
+    width: 27.5vw;
+    margin-top: -20.8rem;
+    margin-left: auto;
+    @include mobile-only {
+      width: 26vw;
+      margin-top: -8rem;
+    }
+
+  }
+  &:nth-child(7n + 7) {
+    width: 58vw;
+    margin-top: 11.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    @include mobile-only {
+      width: 60vw;
+      margin-top: 3rem;
+    }
+  }
+  &:nth-child(8) {
+    margin-top: 10rem;
+    @include mobile-only {
+      margin-top: 3rem;
+    }
+  }
+}

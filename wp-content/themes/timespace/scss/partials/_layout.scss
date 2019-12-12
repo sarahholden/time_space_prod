@@ -1,0 +1,150 @@
+/* --------------------------------------------------------------------------
+Default Box sizing, Overflow Styles
+-----------------------------------------------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	overflow-x: hidden;
+}
+
+/* --------------------------------------------------------------------------
+Vertical & Horizontal Alignment
+-----------------------------------------------------------------------------*/
+/* Center vertically  */
+%v-aligner,
+.v-aligner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+/* Center vertically and horizontally */
+%v-h-aligner,
+.v-h-aligner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+/* Split aligner - left and right */
+%split-aligner,
+.split-aligner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+/* --------------------------------------------------------------------------
+Centered Layout
+-----------------------------------------------------------------------------*/
+[class*="container"] {
+	width: 100%;
+}
+
+.container-md {
+	padding-left: 11rem;
+	padding-right: 11rem;
+}
+
+.container {
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.container-full {
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+[class*="container"]:not([class*="wpforms"]):not(.swiper-container-gallery) {
+	@include tablet-down {
+		padding-left: 7rem;
+		padding-right: 7rem;
+	}
+	@include mobile-only {
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+}
+
+/* --------------------------------------------------------------------------
+Padding
+-----------------------------------------------------------------------------*/
+.padded {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	@include tablet-only {
+		padding-top: 5.5rem;
+		padding-bottom: 5.5rem;
+	}
+	@include mobile-only {
+		padding-top: 3.8rem;
+		padding-bottom: 3.8rem;
+	}
+}
+
+main {
+	margin-top: 25rem;
+	@include mobile-only {
+		margin-top: 14rem;
+	}
+}
+
+/* --------------------------------------------------------------------------
+Sticky Footer
+-----------------------------------------------------------------------------*/
+.cssgrid {
+	/* Add to the body element */
+	.site {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	/* Add to the main element (or whichever element includes your site content and not the footer) */
+	.site-content {
+		flex: 1;
+	}
+}
+
+/* --------------------------------------------------------------------------
+Clearfix helpers (for floats)
+-----------------------------------------------------------------------------*/
+.clearfix:after,
+.clearfix:before {
+	display: table;
+	content: ' ';
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearer {
+	content: '';
+	display: table;
+	clear: both;
+}

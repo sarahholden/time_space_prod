@@ -1,0 +1,188 @@
+/* --------------------------------------------------------------------------
+  LANDING PAGE
+-----------------------------------------------------------------------------*/
+.coming-soon {
+  pointer-events: none;
+}
+
+.properties-list {
+  grid-column-gap: 4.8rem;
+  grid-row-gap: 6.5rem;
+  padding-bottom: 4rem;
+  @include mobile-only {
+    grid-row-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .property-item {
+    padding-top: 4.1rem;
+    border-top: 2px solid $borderColor;
+    @include mobile-only {
+      padding-top: 1.6rem;
+    }
+    .img-wrapper {
+      overflow: hidden;
+      height: 22.9vw;
+      width: 100%;
+      @include mobile-only {
+        height: 62.9vw;
+      }
+    }
+    img {
+      transition: all 3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    }
+
+    &:hover {
+      img {
+        opacity: 0.8;
+        transform: scale(1.09);
+      }
+      h2 {
+        color: darken($navy, 8%);
+      }
+    }
+    .in-progress-note {
+      color: $grayText;
+      font-size: 1.5rem;
+      letter-spacing: 0.03rem;
+      margin-top: 0.6rem;
+      min-height: 2rem;
+      @include mobile-only {
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+      }
+    }
+    h2 {
+      margin-top: 2rem;
+      font-family: $classico;
+      color: $navy;
+      @include mobile-only {
+        margin-top: 1.2rem;
+      }
+
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+  DETAIL PAGE
+-----------------------------------------------------------------------------*/
+
+/* HEADER ================== */
+.page-property-detail header {
+  h1 {
+    color: $navy;
+    margin-top: -2rem;
+    @include mobile-only {
+      margin-top: 2rem;
+    }
+  }
+  h2 {
+    margin-bottom: 2rem;
+    @include mobile-only {
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+  .desc {
+    font-size: 1.5rem;
+    color: $grayText;
+    line-height: 1.6;
+    letter-spacing: 0.02rem;
+    @include mobile-only {
+      font-size: 1.1rem;
+    }
+  }
+  .url {
+    display: inline-block;
+    margin-top: 5.5rem;
+    color: $copper;
+    @include mobile-only {
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+    }
+    &:hover {
+      transform: translateY(2px);
+    }
+  }
+  .cols-3 {
+    @include tablet-up {
+      grid-template-columns: 55fr 33fr 43fr;
+      grid-column-gap: 3rem;
+    }
+  }
+}
+
+/* Divider ================== */
+.divider-image {
+  height: 59vw;
+  @include tablet-up {
+    margin-top: 3.8rem;
+  }
+}
+
+/* Intro ================== */
+.page-property-detail .intro {
+  padding-top: 12.6rem;
+  padding-bottom: 12.6rem;
+  @include mobile-only {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .cols-2 {
+    grid-gap: 10rem;
+    @include mobile-only {
+      grid-row-gap: 3rem;
+    }
+  }
+  .desc {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    @include tablet-up {
+      padding-left: 3.3rem;
+    }
+    @include mobile-only {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+    }
+  }
+}
+
+/* Gallery ================== */
+.page-property-detail .gallery {
+  .full-image {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 9.6rem;
+    @include mobile-only {
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .left-image,
+  .right-image {
+    width: 48vw;
+  }
+  .right-image {
+    margin-left: auto;
+    transform: translateY(-6rem);
+    @include mobile-only {
+      transform: translateY(-3rem);
+    }
+  }
+  .gallery-row:not(:last-of-type) {
+    padding-bottom: 4rem;
+    @include mobile-only {
+      padding-bottom: 0;
+    }
+  }
+}
+
+/* FEATURED ================== */
+.page-property-detail .featured {
+  text-align: center;
+  padding-top: 4rem;
+  h1 {
+    margin-bottom: 5.8rem;
+  }
+}
